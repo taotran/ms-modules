@@ -14,7 +14,7 @@ import org.springframework.web.servlet.view.InternalResourceViewResolver;
  */
 @Configuration
 @EnableWebMvc
-@ComponentScan(basePackages = "vn.com.taotv.core.webapp.controller")
+@ComponentScan(basePackages = {"vn.com.taotv.core.webapp.controller"})
 public class MvcConfig extends WebMvcConfigurerAdapter {
 
     @Bean
